@@ -40,3 +40,17 @@ Logistic Regression
 Prediction
       ↓
 Fake / Genuine
+
+## 📸 Application Screenshots
+
+### 🕵️ Fake Review Detection
+
+![Fake Review Detection](screenshots/Fake%20Review%20Detection.png)
+
+### ✅ Genuine Review Detection
+
+![Genuine Review Detection](screenshots/Genuine%20Review%20Detection.png)
+
+### 🎯 Genuine Review with High Confidence
+
+![Genuine Review with High Confidence](screenshots/Genuine%20Review%20with%20High%20Confidence.png)
