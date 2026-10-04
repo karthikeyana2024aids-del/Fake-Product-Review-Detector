@@ -6,25 +6,33 @@ A Machine Learning based web application that detects whether a product review i
 
 🔗 https://fakereviewdetectorkasu.streamlit.app/
 
+---
+
 ## 📌 Project Overview
 
 Fake product reviews can mislead customers and influence purchasing decisions.
 
-This project uses **TF-IDF Vectorization** and a **Logistic Regression** machine learning model to analyze product review text and classify it as:
+This project uses **TF-IDF Vectorization** and **Logistic Regression** to analyze product review text and classify it into two categories:
 
-- 🕵️ Fake Review (CG)
-- ✅ Genuine Review (OR)
+- 🚨 **Fake Review (CG)**
+- ✅ **Genuine Review (OR)**
+
+The application provides the predicted class along with the **prediction confidence percentage** through an interactive Streamlit web interface.
+
+---
 
 ## ✨ Features
 
-- Enter any product review
-- Detect whether the review is Fake or Genuine
-- Display prediction confidence
-- NLP-based text processing
-- TF-IDF feature extraction
-- Machine Learning classification
-- Interactive Streamlit web interface
-- Deployed using Streamlit Cloud
+- 📝 Enter any product review
+- 🔍 Detect whether the review is Fake or Genuine
+- 📊 Display prediction confidence
+- 🧹 NLP-based text preprocessing
+- 🔤 TF-IDF feature extraction
+- 🤖 Logistic Regression classification
+- 🌐 Interactive Streamlit web interface
+- ☁️ Deployed using Streamlit Cloud
+
+---
 
 ## 🧠 Machine Learning Workflow
 
@@ -40,17 +48,3 @@ Logistic Regression
 Prediction
       ↓
 Fake / Genuine
-
-## 📸 Application Screenshots
-
-### 🕵️ Fake Review Detection
-
-![Fake Review Detection](screenshots/Fake%20Review%20Detection.png)
-
-### ✅ Genuine Review Detection
-
-![Genuine Review Detection](screenshots/Genuine%20Review%20Detection.png)
-
-### 🎯 Genuine Review with High Confidence
-
-![Genuine Review with High Confidence](screenshots/Genuine%20Review%20with%20High%20Confidence.png)
